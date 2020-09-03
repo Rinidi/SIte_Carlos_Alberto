@@ -1,0 +1,119 @@
+html, body{
+    height: 100%;
+    margin: 0px;
+}
+/* Nav Bar*/
+.logo{
+    width: 100px;
+}
+.navbar{
+    background: #14387f;
+}
+.nav-link{
+    letter-spacing: 1.2px;
+    font-size: 1.3rem;
+    color: whitesmoke;
+    font-family: 'Fredoka One', cursive;
+    font-weight: bold;
+}
+
+/*Section Banner*/
+.banner{
+    height: calc(100% - 90px);
+    background-image: url("../img/banners/banner_fundo_verde.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner__container{
+    display: flex;
+    justify-content: space-between;
+}
+.banner__images{
+    width: 300px;
+}
+.banner__carlos{
+    position: absolute;
+    top: 23.5%;
+    left: 0;
+    z-index: 0;
+    width: 40%;
+}
+.banner__wave{
+    position: absolute;
+    top: 70%;
+    width: 40%;
+    height: 30%;
+    z-index: 2;
+}
+.banner__content{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.banner__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    justify-content: space-between;
+    height: 100%;
+}
+.banner__titulo{
+    text-align: start;
+}
+.banner__text{
+    font-family: 'Fredoka One', cursive;
+    color: #f8f8f8;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: start;
+    margin-left: 10px;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #1a652a;
+}
+.banner__subtext{
+    font-family: 'Fredoka One', cursive;
+    color: #e31d25;
+    font-size: 1.5rem;
+    text-transform: lowercase;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #f1f1f1;
+}
+.carlos{
+    font-size: 5rem;
+    letter-spacing: 5px;
+    -webkit-text-stroke-width: 3px;
+}
+.posto{
+    margin-top: -15px;
+    font-size: 2rem;
+    text-align: end;
+}
+.aldo{
+    font-size: 2.5rem;
+}
+.banner__side{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner__numero{
+    font-size: 8rem;
+    font-family: 'Fredoka One', cursive;
+    color: #14387f;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #f1f1f1;
+}
+.banner__logos{
+    display: flex;
+    margin: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
