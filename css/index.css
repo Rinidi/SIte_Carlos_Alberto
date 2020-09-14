@@ -1,24 +1,166 @@
+/*GERAL*/
 html, body{
     height: 100%;
     margin: 0px;
+    background: #f5f5f5;
 }
-/* Nav Bar*/
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+/*////////////////////////////*/
+
+/*ClASSES MAE*/
+.titulo{
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.texto{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+/*////////////////////////////*/
+
+/* NAV*/
 .logo{
-    width: 100px;
+    width: 90px;
 }
 .navbar{
     background: #14387f;
 }
 .nav-link{
-    letter-spacing: 1.2px;
     font-size: 1.3rem;
     color: whitesmoke;
     font-family: 'Fredoka One', cursive;
+}
+/*////////////////////////////*/
+
+/*SOBRE*/
+.sobre{
+    text-align: center;
+    margin: 2rem 0 2rem 0;
+}
+.sobre__titulo{
+    color: #14387f;
+}
+.sobre__paragrafo{
+
+}
+/*////////////////////////////*/
+
+/*PROPOSTAS*/
+.propostas{
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    background: #48944b;
+}
+.propostas__titulo{
+    color: #ffffff;
+    text-shadow: gray 1px 2px;
+}
+.propostas__botao{
+    background: #1850c4;
+    color: whitesmoke;
     font-weight: bold;
+    font-size: 1.2rem;
+    padding: 5px 15px 5px 15px;
+}
+.propostas__botao:hover{
+    background: #1c3e89;
+    color: whitesmoke;
+}
+/*////////////////////////////*/
+
+/*NOTICIAS*/
+.noticias{
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+}
+.noticias__titulo{
+    color: #14387f;
+}
+.noticias___noticia__data{
+    color: #1d2124;
+    font-size: 1.1rem;
+    margin-top: -30%;
+    margin-left: -15px;
+    margin-bottom: 30%;
+}
+.noticias___noticia__titulo{
+    color: #1d2124;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.noticias__box{
+}
+.noticia__item{
+    margin-bottom: 20px;
+}
+.noticias__noticia{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background: white;
+}
+/*////////////////////////////*/
+
+/*Rede sociais*/
+.sociais{
+    text-align: center;
+    background: #48944b;
+    padding-top: 20px;
+}
+.sociais__titulo{
+    color: white;
+}
+.sociais__logo{
+    margin: 10px;
+}
+.facebook{
+    width: 70px;
+}
+.youtube{
+    width: 80px;
+}
+.sociais__redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+/*////////////////////////////*/
+
+/*CONTATO*/
+.contato{
+    padding-top: 3%;
+}
+.contato__titulo{
+    color: #14387f;
+}
+.contato__box{
+    text-align: center;
+}
+.contato__form-box{
+    margin-top: 3%;
+}
+.contato_form{
+    text-align: left;
+}
+.contato__label{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
+
+
+
+
+
 /*Section Banner*/
-.banner{
+/*.banner{
     height: calc(100% - 90px);
     background-image: url("../img/banners/banner_fundo_verde.jpg");
     background-position: center;
@@ -116,4 +258,4 @@ html, body{
     margin: 10px;
     width: 100%;
     justify-content: space-between;
-}
+}*/

@@ -20,32 +20,187 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f9488df-91a0-4e7b-9e15-67f9a9713d27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Site_Carlos_Alberto.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/controllers/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/core/MY_Loader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/modules/cabecalho.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/modules/rodape.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/banners/banner_fundo_verde.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/banners/carlosdoposto_2020_azul.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/candidatos/carlos-perfil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/candidatos/carlos-transparente.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/vetores/logo-azul.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/vetores/logo-azul.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/vetores/logo-branco.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/vetores/logo-partido-progressista.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/vetores/logo-transparente.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/vetores/wave-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/vetores/wave.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/routes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/vetores/facebook-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/vetores/youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/AUTHORS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/dist/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/dist/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/dist/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/dist/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/dist/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/dist/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/dist/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/external/sizzle/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/external/sizzle/dist/sizzle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/external/sizzle/dist/sizzle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/external/sizzle/dist/sizzle.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/ajax/jsonp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/ajax/load.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/ajax/parseXML.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/ajax/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/ajax/var/location.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/ajax/var/nonce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/ajax/var/rquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/ajax/xhr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/attributes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/attributes/attr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/attributes/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/attributes/prop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/attributes/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/attributes/val.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/callbacks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/core/DOMEval.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/core/access.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/core/camelCase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/core/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/core/nodeName.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/core/parseHTML.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/core/ready-no-deferred.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/core/ready.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/core/readyException.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/core/stripAndCollapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/core/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/core/toType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/core/var/rsingleTag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/css/addGetHookIf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/css/adjustCSS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/css/curCSS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/css/hiddenVisibleSelectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/css/showHide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/css/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/css/var/cssExpand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/css/var/getStyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/css/var/isHiddenWithinTree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/css/var/rboxStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/css/var/rnumnonpx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/css/var/swap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/data/Data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/data/var/acceptData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/data/var/dataPriv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/data/var/dataUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/deferred.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/deferred/exceptionHook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/deprecated.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/dimensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/effects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/effects/Tween.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/effects/animatedSelector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/event/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/event/alias.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/event/focusin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/event/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/event/trigger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/exports/amd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/exports/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/manipulation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/manipulation/_evalUrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/manipulation/buildFragment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/manipulation/getAll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/manipulation/setGlobalEval.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/manipulation/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/manipulation/var/rcheckableType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/manipulation/var/rscriptType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/manipulation/var/rtagName.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/manipulation/wrapMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/offset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/queue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/queue/delay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/selector-native.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/selector-sizzle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/serialize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/traversing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/traversing/findFilter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/traversing/var/dir.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/traversing/var/rneedsContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/traversing/var/siblings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/var/ObjectFunctionString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/var/arr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/var/class2type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/var/concat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/var/document.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/var/documentElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/var/fnToString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/var/getProto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/var/hasOwn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/var/indexOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/var/isFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/var/isWindow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/var/pnum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/var/push.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/var/rcssNum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/var/rnothtmlwhite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/var/slice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/var/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/var/toString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/src/wrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lightbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/dist/esm/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/dist/esm/popper-utils.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/dist/esm/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/dist/esm/popper-utils.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/dist/esm/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/dist/esm/popper.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/dist/esm/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/dist/esm/popper.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/dist/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/dist/popper-utils.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/dist/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/dist/popper-utils.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/dist/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/dist/popper.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/dist/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/dist/popper.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/dist/umd/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/dist/umd/popper-utils.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/dist/umd/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/dist/umd/popper-utils.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/dist/umd/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/dist/umd/popper.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/dist/umd/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/dist/umd/popper.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popper.js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/modules/cabecalho.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/modules/cabecalho.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/modules/rodape.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/modules/rodape.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-grid.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-grid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.min.js.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +228,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -84,6 +240,8 @@
       <option name="presentableId" value="Default" />
       <updated>1599056352344</updated>
       <workItem from="1599056356673" duration="24679000" />
+      <workItem from="1599356317621" duration="26000" />
+      <workItem from="1599870548541" duration="13993000" />
     </task>
     <servers />
   </component>
@@ -100,6 +258,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -117,10 +276,18 @@
       <screen x="74" y="27" width="1292" height="741" />
     </state>
     <state x="515" y="323" width="399" height="156" key="NewPhpFileDialog/74.27.1292.741@74.27.1292.741" timestamp="1599065913818" />
-    <state x="384" y="174" key="run.anything.popup" timestamp="1599153880577">
+    <state x="209" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1600028581235">
       <screen x="74" y="27" width="1292" height="741" />
     </state>
-    <state x="384" y="174" key="run.anything.popup/74.27.1292.741@74.27.1292.741" timestamp="1599153880577" />
+    <state x="209" y="31" width="1022" height="737" key="SettingsEditor/74.27.1292.741@74.27.1292.741" timestamp="1600028581235" />
+    <state x="334" y="27" width="762" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600020660426">
+      <screen x="74" y="27" width="1292" height="741" />
+    </state>
+    <state x="334" y="27" width="762" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/74.27.1292.741@74.27.1292.741" timestamp="1600020660426" />
+    <state x="384" y="174" key="run.anything.popup" timestamp="1599921808396">
+      <screen x="74" y="27" width="1292" height="741" />
+    </state>
+    <state x="384" y="174" key="run.anything.popup/74.27.1292.741@74.27.1292.741" timestamp="1599921808396" />
     <state x="383" y="89" key="search.everywhere.popup" timestamp="1599165081928">
       <screen x="74" y="27" width="1292" height="741" />
     </state>
