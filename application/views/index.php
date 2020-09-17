@@ -1,3 +1,6 @@
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v8.0" nonce="iH9YsbQP"></script>
+
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
@@ -100,15 +103,18 @@
 </section>-->
 <section class="sobre">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-12">
                 <h3 class="sobre__titulo titulo">Sobre Carlos do Posto</h3>
-                <p class="sobre__paragrafo texto">
-                    Carlos Alberto Morais, mais conhecido como CARLOS DO POSTO é Pré candidato à Prefeito de Brazópolis - MG.
+                <p class="container sobre__paragrafo texto">
+                    Carlos Alberto Morais, mais conhecido como CARLOS DO POSTO é pré-candidato à Prefeito de Brazópolis - MG.<br/>
+                    Natural de Portugal (1958), veio para o Brasil em 1979 e para Brazópolis em 1983. Carlos também é empresário  no ramo de combustíveis, casado e pai de 3 filhos.
                 </p>
             </div>
-            <div class="col-12">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/EBxlWoAV7VA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="col-10 col-xl-5 col-lg-6 col-md-7 col-sm-8">
+                <iframe width="100%" height="300px" src="https://www.youtube.com/embed/EBxlWoAV7VA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-10 col-xl-10 col-lg-6 col-md-7 col-sm-8">
             </div>
         </div>
     </div>
@@ -194,7 +200,23 @@
 </section>
 <footer class="rodape">
     <div class="container">
-
+        <div class="row justify-content-around align-items-center">
+            <div class="col-12 col-xl-3 col-lg-3 col-md-4 col-sm-4">
+                <img src="<?= base_url("img/vetores/logo-azul.png"); ?>"
+                     alt="Logo PSD"
+                     class="img-fluid rodape__psd">
+            </div>
+            <div class="col-12 col-xl-4 col-lg-3 col-md-4 col-sm-4">
+                <h3 class="rodape__titulo">
+                    Informações
+                </h3>
+                <p class="rodape__texto">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci commodi fugiat officiis veniam vitae. Alias asperiores cumque ea exercitationem fugit illum inventore molestias porro quas quidem repellat sapiente, vel voluptates!
+                </p>
+            </div>
+            <div class="col-12 col-xl-3 col-lg-3 col-md-4 col-sm-4 rodape__texto">
+                Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+            </div>
+        </div>
     </div>
-    Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
 </footer>

@@ -153,7 +153,27 @@ a:hover{
     margin-bottom: 10px;
     margin-top: 5px;
 }
+/*////////////////////////////*/
 
+/*RODAPE*/
+.rodape{
+    background: #14387f;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.rodape__titulo{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.rodape__texto{
+    color: #f1f1f1;
+    font-size: 1rem;
+    text-align: start;
+}
+.rodape__psd{
+    width: 50%;
+}
 
 
 
