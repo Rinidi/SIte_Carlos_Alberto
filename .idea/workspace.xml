@@ -20,9 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f9488df-91a0-4e7b-9e15-67f9a9713d27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/application/helpers/date_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/noticias_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/noticias/noticia.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/noticias.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noticias/01-Aquisicao-de-brinquedos/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noticias/01-Aquisicao-de-brinquedos/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noticias/01-Aquisicao-de-brinquedos/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noticias/01-Aquisicao-de-brinquedos/4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/config/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/welcome_message.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/modules/cabecalho.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/modules/cabecalho.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +76,7 @@
       <workItem from="1599056356673" duration="24679000" />
       <workItem from="1599356317621" duration="26000" />
       <workItem from="1599870548541" duration="18598000" />
-      <workItem from="1600353618483" duration="599000" />
+      <workItem from="1600353618483" duration="9392000" />
     </task>
     <servers />
   </component>
@@ -92,14 +103,14 @@
       <screen x="74" y="27" width="1292" height="741" />
     </state>
     <state x="365" y="27" width="700" height="741" key="#PHP/74.27.1292.741@74.27.1292.741" timestamp="1599066224077" />
-    <state x="378" y="117" width="673" height="568" key="NewPhpClassDialog" timestamp="1599056459808">
+    <state x="378" y="117" width="673" height="575" key="NewPhpClassDialog" timestamp="1600467927963">
       <screen x="74" y="27" width="1292" height="741" />
     </state>
-    <state x="378" y="117" width="673" height="568" key="NewPhpClassDialog/74.27.1292.741@74.27.1292.741" timestamp="1599056459808" />
-    <state x="515" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1599065913818">
+    <state x="378" y="117" width="673" height="575" key="NewPhpClassDialog/74.27.1292.741@74.27.1292.741" timestamp="1600467927963" />
+    <state x="515" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1600470250285">
       <screen x="74" y="27" width="1292" height="741" />
     </state>
-    <state x="515" y="323" width="399" height="156" key="NewPhpFileDialog/74.27.1292.741@74.27.1292.741" timestamp="1599065913818" />
+    <state x="515" y="323" width="399" height="156" key="NewPhpFileDialog/74.27.1292.741@74.27.1292.741" timestamp="1600470250285" />
     <state x="209" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1600195161080">
       <screen x="74" y="27" width="1292" height="741" />
     </state>

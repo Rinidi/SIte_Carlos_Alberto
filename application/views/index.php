@@ -1,49 +1,7 @@
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v8.0" nonce="iH9YsbQP"></script>
 
-<header>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img class="logo"
-                     src="<?= base_url("img/vetores/logo-azul.png"); ?>"
-                     alt="Logo psd com fundo azul"/>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Início <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">PSD</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Notícias
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
-                    </li>
-                </ul>
-                <!--<form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>-->
-            </div>
-        </div>
-    </nav>
-</header>
 <section class="carrossel">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -134,19 +92,22 @@
     </div>
     <div class="container noticias__box">
         <div class="row justify-content-around">
-            <?php  $a=0; while ($a<4){?>
+            <?php foreach ($noticias as $noticia):?>
                 <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-10 noticia__item">
-                    <a href="#">
+                    <a href="index.php/home/noticias/<?=$noticia['id']?>">
                         <div class="noticias__noticia">
-                            <img src="https://via.placeholder.com/150" alt="noticia">
+                            <img width="150px"
+                                 class="img-fluid"
+                                 src="<?=base_url("img/noticias/{$noticia['caminho']}/1.jpg");?>"
+                                 alt="noticia">
                             <div class="noticias___noticia__texto">
-                                <p class="noticias___noticia__data">13/09/2020</p>
-                                <h4 class="noticias___noticia__titulo">Título de notícia</h4>
+                                <p class="noticias___noticia__data"><?= dataMysqlParaPtBr($noticia['data']);?></p>
+                                <h4 class="noticias___noticia__titulo"><?= $noticia['titulo']?></h4>
                             </div>
                         </div>
                     </a>
                 </div>
-                <?php $a++;} ?>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>
