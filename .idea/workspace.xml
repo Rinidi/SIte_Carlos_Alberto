@@ -20,21 +20,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f9488df-91a0-4e7b-9e15-67f9a9713d27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/application/helpers/date_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/models/noticias_model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/noticias/noticia.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/noticias.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/noticias/01-Aquisicao-de-brinquedos/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/noticias/01-Aquisicao-de-brinquedos/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/noticias/01-Aquisicao-de-brinquedos/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/noticias/01-Aquisicao-de-brinquedos/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/noticias.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/noticias/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/noticias/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/noticias/noticia.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/banners/banner-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/banners/banner-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noticias/03-Aquisicao-de-moveis/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noticias/03-Aquisicao-de-moveis/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noticias/03-Aquisicao-de-moveis/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noticias/04-Onibus-escolares/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noticias/04-Onibus-escolares/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noticias/04-Onibus-escolares/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noticias/05-Reforma-das-escolas/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noticias/05-Reforma-das-escolas/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noticias/05-Reforma-das-escolas/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noticias/05-Reforma-das-escolas/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noticias/05-Reforma-das-escolas/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noticias/05-Reforma-das-escolas/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noticias/05-Reforma-das-escolas/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noticias/05-Reforma-das-escolas/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noticias/05-Reforma-das-escolas/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noticias/05-Reforma-das-escolas/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noticias/06-Quadras-poliesportivas/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noticias/06-Quadras-poliesportivas/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noticias/06-Quadras-poliesportivas/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noticias/06-Quadras-poliesportivas/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/vetores/logo-estrelas-site.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/controllers/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/noticias_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/noticias_model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/modules/cabecalho.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/modules/cabecalho.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/noticias/noticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/noticias/noticia.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/noticias.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/nav.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +85,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css/noticias" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,7 +101,7 @@
       <workItem from="1599056356673" duration="24679000" />
       <workItem from="1599356317621" duration="26000" />
       <workItem from="1599870548541" duration="18598000" />
-      <workItem from="1600353618483" duration="9392000" />
+      <workItem from="1600353618483" duration="18780000" />
     </task>
     <servers />
   </component>
@@ -103,18 +128,18 @@
       <screen x="74" y="27" width="1292" height="741" />
     </state>
     <state x="365" y="27" width="700" height="741" key="#PHP/74.27.1292.741@74.27.1292.741" timestamp="1599066224077" />
-    <state x="378" y="117" width="673" height="575" key="NewPhpClassDialog" timestamp="1600467927963">
+    <state x="378" y="117" width="673" height="575" key="NewPhpClassDialog" timestamp="1600520542708">
       <screen x="74" y="27" width="1292" height="741" />
     </state>
-    <state x="378" y="117" width="673" height="575" key="NewPhpClassDialog/74.27.1292.741@74.27.1292.741" timestamp="1600467927963" />
-    <state x="515" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1600470250285">
+    <state x="378" y="117" width="673" height="575" key="NewPhpClassDialog/74.27.1292.741@74.27.1292.741" timestamp="1600520542708" />
+    <state x="515" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1600520884587">
       <screen x="74" y="27" width="1292" height="741" />
     </state>
-    <state x="515" y="323" width="399" height="156" key="NewPhpFileDialog/74.27.1292.741@74.27.1292.741" timestamp="1600470250285" />
-    <state x="209" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1600195161080">
+    <state x="515" y="323" width="399" height="156" key="NewPhpFileDialog/74.27.1292.741@74.27.1292.741" timestamp="1600520884587" />
+    <state x="209" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1600548215269">
       <screen x="74" y="27" width="1292" height="741" />
     </state>
-    <state x="209" y="31" width="1022" height="737" key="SettingsEditor/74.27.1292.741@74.27.1292.741" timestamp="1600195161080" />
+    <state x="209" y="31" width="1022" height="737" key="SettingsEditor/74.27.1292.741@74.27.1292.741" timestamp="1600548215269" />
     <state x="334" y="27" width="762" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600020660426">
       <screen x="74" y="27" width="1292" height="741" />
     </state>

@@ -1,20 +1,16 @@
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v8.0" nonce="iH9YsbQP"></script>
-
-
 <section class="carrossel">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <!--<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>-->
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="<?= base_url("img/banners/carrossel.png")?>" class="d-block w-100" alt="...">
+                <img src="<?= base_url("img/banners/banner-1.png")?>" class="d-block w-100" alt="...">
             </div>
-            <!--<div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-            </div>-->
+            <div class="carousel-item">
+                <img src="<?= base_url("img/banners/banner-2.png")?>" class="d-block w-100" alt="...">
+            </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -94,11 +90,11 @@
         <div class="row justify-content-around">
             <?php foreach ($noticias as $noticia):?>
                 <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-10 noticia__item">
-                    <a href="index.php/home/noticias/<?=$noticia['id']?>">
+                    <a href="index.php/noticias/noticia/<?=$noticia['id']?>">
                         <div class="noticias__noticia">
                             <img width="150px"
                                  class="img-fluid"
-                                 src="<?=base_url("img/noticias/{$noticia['caminho']}/1.jpg");?>"
+                                 src="<?=base_url("img/noticias/{$noticia['pasta']}/1.jpg");?>"
                                  alt="noticia">
                             <div class="noticias___noticia__texto">
                                 <p class="noticias___noticia__data"><?= dataMysqlParaPtBr($noticia['data']);?></p>
@@ -140,15 +136,15 @@
                 <form contato__form>
                     <div class="form-group">
                         <label class="contato__label" for="assunto">Assunto</label>
-                        <input id="assunto" class="form-control" type="text" placeholder="Default input">
+                        <input id="assunto" class="form-control" type="text" placeholder="Assunto">
                     </div>
                     <div class="form-group">
                         <label class="contato__label" for="nome">Nome</label>
-                        <input id="nome" class="form-control" type="text" placeholder="Default input">
+                        <input id="nome" class="form-control" type="text" placeholder="Nome">
                     </div>
                     <div class="form-group">
                         <label class="contato__label" for="email">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com">
                     </div>
                     <div class="form-group">
                         <label class="contato__label" for="mensagem">Mensagem</label>

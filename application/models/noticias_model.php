@@ -3,13 +3,13 @@ class Noticias_model extends CI_Model
 {
     public function busca($id)
     {
-        return $this->db->get_where("noticias", array(
-           "id" => $id
-        ))->row_array();
+        $this->db->where('id', $id);
+        return $this->db->get("noticias")->row_array();
     }
 
     public function buscaTodos()
     {
+        $this->db->order_by('data', 'DESC');
         return $this->db->get("noticias")->result_array();
     }
 }
