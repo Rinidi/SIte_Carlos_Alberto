@@ -48,9 +48,9 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
+$db['default']['hostname'] = 'carlosdoposto.mysql.dbaas.com.br';
+$db['default']['username'] = 'carlosdoposto';
+$db['default']['password'] = 'Carlos@2020';
 $db['default']['database'] = 'carlosdoposto';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';

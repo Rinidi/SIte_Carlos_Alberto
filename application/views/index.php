@@ -3,13 +3,17 @@
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="<?= base_url("img/banners/banner-1.png")?>" class="d-block w-100" alt="...">
+                <img src="<?= base_url("img/banners/banner-1-carlos-aldo.png")?>" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="<?= base_url("img/banners/banner-2.png")?>" class="d-block w-100" alt="...">
+                <img src="<?= base_url("img/banners/banner-2-vereadores.png")?>" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="<?= base_url("img/banners/banner-3-vereadores.png")?>" class="d-block w-100" alt="...">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

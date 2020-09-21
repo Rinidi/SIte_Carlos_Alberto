@@ -30,9 +30,9 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img width="90px"
-                     src="<?= base_url("img/vetores/logo-azul.png"); ?>"
-                     alt="Logo psd com fundo azul"/>
+                <img width="30px"
+                     src="<?= base_url("img/vetores/logo-estrelas-site-2.png"); ?>"
+                     alt="Logo psd"/>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
