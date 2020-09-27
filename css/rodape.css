@@ -1,0 +1,31 @@
+/*RODAPE*/
+.rodape{
+    background: #129551;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.rodape__titulo{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.rodape__frame{
+}
+.rodape__texto{
+    color: #f1f1f1;
+    font-size: 1rem;
+    text-align: start;
+}
+.rodape__psd{
+    width: 50%;
+}
+.rodape__localizacao{
+    display: flex;
+    align-items: start;
+}
+.rodape___local__texto{
+    margin-top: 5px;
+}
+.rodape__gps-logo{
+    width: 25px;
+}

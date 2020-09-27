@@ -6,8 +6,8 @@ class Home extends CI_Controller
     public function index()
     {
         $this->load->model("noticias_model");
-        $this->load->helper("date_helper");
-        $noticias = $this->noticias_model->buscaTodos();
+        $this->load->helper(array("date_helper", "typography"));
+        $noticias = $this->noticias_model->buscaTodosPorTabela("noticias");
         $caminhoCss = "index.css";
 
         $dados = array("caminhoCss" => $caminhoCss, "noticias" => $noticias);

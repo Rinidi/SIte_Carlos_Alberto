@@ -27,43 +27,11 @@
     </div>
 </section>
 
-<!--<section class="banner">
-    <div class="banner__container">
-        <div class="banner__images">
-            <img src="<?= base_url("img/vetores/wave-2.png")?>"
-                 alt="Candidato Carlos do posto" class="img-fluid banner__wave ">
-            <img src="<?= base_url("img/candidatos/carlos-transparente.png")?>"
-                 alt="Candidato Carlos do posto" class="img-fluid banner__carlos">
-        </div>
-        <div class="banner__content">
-            <div class="banner__box">
-                <div class="banner__titulo">
-                    <p class="banner__subtext pref">pré-candidato a prefeito</p>
-                    <h1 class="banner__text carlos">CARLOS</h1>
-                    <h1 class="banner__text posto">DO POSTO</h1>
-                </div>
-                <div class="banner__titulo">
-                    <p class="banner__subtext vice">pré-candidato a vice-prefeito</p>
-                    <h1 class="banner__text aldo">ALDO SILVEIRA</h1>
-                </div>
-            </div>
-            <div class="banner__side">
-                <p class="banner__numero">55</p>
-                <div class="banner__logos">
-                    <img src="<?= base_url("img/vetores/logo-transparente.png")?>"
-                         alt="Logo PSD" class="img-fluid" width="100px">
-                    <img src="<?= base_url("img/vetores/logo-partido-progressista.png")?>"
-                         alt="Logo PSD" class="img-fluid" width="100px">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>-->
 <section class="sobre">
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-12">
-                <h3 class="sobre__titulo titulo">Sobre Carlos do Posto</h3>
+                <h3 class="sobre__titulo titulo">Carlos do Posto</h3>
                 <p class="container sobre__paragrafo texto">
                     Carlos Alberto Morais, mais conhecido como CARLOS DO POSTO é pré-candidato à Prefeito de Brazópolis - MG.<br/>
                     Natural de Portugal (1958), veio para o Brasil em 1979 e para Brazópolis em 1983. Carlos também é empresário  no ramo de combustíveis, casado e pai de 3 filhos.
@@ -80,7 +48,9 @@
 <section class="propostas">
     <div class="container">
         <h3 class="propostas__titulo titulo">Veja minhas propostas</h3>
-        <a href="" class="btn propostas__botao">Baixar</a>
+        <a href="<?= base_url("content/pdfs/proposta-de-governo.pdf");?>"
+           class="btn propostas__botao"
+           target="_blank">Baixar</a>
     </div>
 </section>
 <section class="noticias">
@@ -93,16 +63,17 @@
     <div class="container noticias__box">
         <div class="row justify-content-around">
             <?php foreach ($noticias as $noticia):?>
-                <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-10 noticia__item">
-                    <a href="index.php/noticias/noticia/<?=$noticia['id']?>">
+                <div class="col-12 col-xl-4 col-lg-4 col-md-8 col-sm-10 noticia__item">
+                    <a href="index.php/<?=$noticia['pasta']?>">
                         <div class="noticias__noticia">
-                            <img width="150px"
-                                 class="img-fluid"
-                                 src="<?=base_url("img/noticias/{$noticia['pasta']}/1.jpg");?>"
+                            <img
+                                 class="img-fluid noticias___noticia__imagem"
+                                 src="<?=base_url("img/secretarias/{$noticia['pasta']}/0.jpg");?>"
                                  alt="noticia">
                             <div class="noticias___noticia__texto">
                                 <p class="noticias___noticia__data"><?= dataMysqlParaPtBr($noticia['data']);?></p>
                                 <h4 class="noticias___noticia__titulo"><?= $noticia['titulo']?></h4>
+                                <p class="noticias___noticia__paragrafo"><?= $noticia['descricao'];?></p>
                             </div>
                         </div>
                     </a>
@@ -115,11 +86,19 @@
     <div class="container">
         <h3 class="sociais__titulo titulo">Me acompanhe nas redes sociais</h3>
         <div class="sociais__redes">
-            <a class="sociais__icon" href="https://www.facebook.com/carlosdoposto2020">
+            <a class="sociais__icon" href="https://chat.whatsapp.com/K8VMP4rjW5h9Mpx2FcB94j" target="_blank">
+                <img class="sociais__logo whatsapp"
+                     src="<?= base_url("img/vetores/whatsapp-logo.svg"); ?>">
+            </a>
+            <a class="sociais__icon" href="https://www.facebook.com/carlosdoposto2020" target="_blank">
                 <img class="sociais__logo facebook"
                      src="<?= base_url("img/vetores/facebook-logo.svg"); ?>">
             </a>
-            <a class="sociais__icon" href="https://www.youtube.com/channel/UCmUWoK23ueyaux1fL7dYxNg">
+            <a class="sociais__icon" href="https://www.instagram.com/carlosdoposto.braz/?hl=pt-br" target="_blank">
+                <img class="sociais__logo instagram"
+                     src="<?= base_url("img/vetores/instagram-logo.svg"); ?>">
+            </a>
+            <a class="sociais__icon" href="https://www.youtube.com/channel/UCmUWoK23ueyaux1fL7dYxNg" target="_blank">
                 <img class="sociais__logo youtube"
                      src="<?= base_url("img/vetores/youtube.svg"); ?>">
             </a>
@@ -159,25 +138,3 @@
         </div>
     </div>
 </section>
-<footer class="rodape">
-    <div class="container">
-        <div class="row justify-content-around align-items-center">
-            <div class="col-12 col-xl-3 col-lg-3 col-md-4 col-sm-4">
-                <img src="<?= base_url("img/vetores/logo-azul.png"); ?>"
-                     alt="Logo PSD"
-                     class="img-fluid rodape__psd">
-            </div>
-            <div class="col-12 col-xl-4 col-lg-3 col-md-4 col-sm-4">
-                <h3 class="rodape__titulo">
-                    Informações
-                </h3>
-                <p class="rodape__texto">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci commodi fugiat officiis veniam vitae. Alias asperiores cumque ea exercitationem fugit illum inventore molestias porro quas quidem repellat sapiente, vel voluptates!
-                </p>
-            </div>
-            <div class="col-12 col-xl-3 col-lg-3 col-md-4 col-sm-4 rodape__texto">
-                Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-            </div>
-        </div>
-    </div>
-</footer>

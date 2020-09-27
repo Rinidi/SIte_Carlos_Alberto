@@ -1,8 +1,21 @@
 .navbar{
-    background: #129551;
+    background: #168e4f;
 }
-.nav-link{
+a.nav-link{
     font-size: 1.3rem;
-    color: whitesmoke;
+    color: rgba(255, 255, 255, 1);
     font-family: 'Fredoka One', cursive;
+}
+a.nav-link:hover{
+    color: #d9d9d9;
+}
+.dropdown-menu{
+    background: #168e4f;
+}
+a.dropdown-item{
+    color: whitesmoke;
+}
+a.dropdown-item:hover {
+    background: #13713f;
+    color: whitesmoke;
 }

@@ -15,6 +15,7 @@ a:hover{
     margin-bottom: 20px;
     font-size: 2.5rem;
     font-weight: bolder;
+    color: #1c7430;
 }
 .texto{
     font-size: 1.2rem;
@@ -26,9 +27,6 @@ a:hover{
 .sobre{
     text-align: center;
     margin: 2rem 0 2rem 0;
-}
-.sobre__titulo{
-    color: #14387f;
 }
 .sobre__paragrafo{
 
@@ -61,10 +59,19 @@ a:hover{
 /*NOTICIAS*/
 .noticias{
     text-align: center;
-    padding: 2rem 0 2rem 0;
 }
-.noticias__titulo{
-    color: #14387f;
+.noticias__noticia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border: 1px solid #c7c7c7;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px #686868;
+}
+noticias___noticia__imagem {
+    width: 100%;
 }
 .noticias___noticia__texto{
     text-align: start;
@@ -72,29 +79,30 @@ a:hover{
 .noticias___noticia__data{
     color: #1d2124;
     font-size: 1.1rem;
+    font-style: italic;
     padding-bottom: 10%;
-    margin-left: 10px;
+    text-align: end;
+    margin: 5px 10px -30px 0;
+
 }
 .noticias___noticia__titulo{
     color: #1d2124;
     font-size: 1.2rem;
     font-weight: bold;
-    margin-left: 10px;
+    text-align: center;
+    color: #1c7430;
+}
+.noticias___noticia__paragrafo{
+    text-align: justify;
+    margin: 10px 25px 10px 25px;
+    color: #1b1e21;
 }
 .noticias__box{
 }
 .noticia__item{
     margin-bottom: 20px;
 }
-.noticias__noticia{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    background: white;
-    border: 1px solid #c7c7c7;
-    border-radius: 3px;
-    box-shadow: 1px 1px 2px #686868;
-}
+
 /*////////////////////////////*/
 
 /*Rede sociais*/
@@ -109,7 +117,13 @@ a:hover{
 .sociais__logo{
     margin: 10px;
 }
+.whatsapp{
+    width: 70px;
+}
 .facebook{
+    width: 70px;
+}
+.instagram{
     width: 70px;
 }
 .youtube{
@@ -127,9 +141,6 @@ a:hover{
 .contato{
     padding-top: 3%;
 }
-.contato__titulo{
-    color: #14387f;
-}
 .contato__box{
     text-align: center;
 }
@@ -145,128 +156,3 @@ a:hover{
     margin-top: 5px;
 }
 /*////////////////////////////*/
-
-/*RODAPE*/
-.rodape{
-    background: #14387f;
-    padding-top: 20px;
-    padding-bottom: 5px;
-}
-.rodape__titulo{
-    color: white;
-    font-size: 2rem;
-    font-weight: bold;
-}
-.rodape__texto{
-    color: #f1f1f1;
-    font-size: 1rem;
-    text-align: start;
-}
-.rodape__psd{
-    width: 50%;
-}
-
-
-
-
-
-/*Section Banner*/
-/*.banner{
-    height: calc(100% - 90px);
-    background-image: url("../img/banners/banner_fundo_verde.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.banner__container{
-    display: flex;
-    justify-content: space-between;
-}
-.banner__images{
-    width: 300px;
-}
-.banner__carlos{
-    position: absolute;
-    top: 23.5%;
-    left: 0;
-    z-index: 0;
-    width: 40%;
-}
-.banner__wave{
-    position: absolute;
-    top: 70%;
-    width: 40%;
-    height: 30%;
-    z-index: 2;
-}
-.banner__content{
-    width: 60%;
-    display: flex;
-    justify-content: space-around;
-}
-.banner__box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px;
-    justify-content: space-between;
-    height: 100%;
-}
-.banner__titulo{
-    text-align: start;
-}
-.banner__text{
-    font-family: 'Fredoka One', cursive;
-    color: #f8f8f8;
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: start;
-    margin-left: 10px;
-    text-transform: uppercase;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #1a652a;
-}
-.banner__subtext{
-    font-family: 'Fredoka One', cursive;
-    color: #e31d25;
-    font-size: 1.5rem;
-    text-transform: lowercase;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #f1f1f1;
-}
-.carlos{
-    font-size: 5rem;
-    letter-spacing: 5px;
-    -webkit-text-stroke-width: 3px;
-}
-.posto{
-    margin-top: -15px;
-    font-size: 2rem;
-    text-align: end;
-}
-.aldo{
-    font-size: 2.5rem;
-}
-.banner__side{
-    margin-left: 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.banner__numero{
-    font-size: 8rem;
-    font-family: 'Fredoka One', cursive;
-    color: #14387f;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #f1f1f1;
-}
-.banner__logos{
-    display: flex;
-    margin: 10px;
-    width: 100%;
-    justify-content: space-between;
-}*/

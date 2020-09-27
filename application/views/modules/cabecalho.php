@@ -5,6 +5,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Link Icon page-->
+    <link rel="icon" type="image/png" href="<?= base_url("img/vetores/logo-estrelas-site-2.png"); ?>">
+
     <!-- Bootstrap CSS -->
     <!--<link rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -18,12 +21,15 @@
     <!-- Personal CSS -->
     <link rel="stylesheet" type="text/css" href="<?= base_url("css/" . $caminhoCss); ?>">
     <link rel="stylesheet" type="text/css" href="<?= base_url("css/nav.css"); ?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url("css/rodape.css"); ?>">
+
+    <link rel="stylesheet" href="<?= base_url('css/lightbox.css');?>">
 
     <!-- Google Fonts -->
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&family=Fredoka+One&display=swap" >
 
-    <title>Carlos Alberto Morais</title>
+    <title>Carlos do Posto 55</title>
 </head>
 <body>
 <header>
@@ -44,13 +50,50 @@
                         <a class="nav-link" href="<?=base_url("")?>">Início <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">PSD</a>
+                        <a class="nav-link" href="">Administração</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                           role="button"
+                           data-toggle="dropdown"
+                           aria-haspopup="true"
+                           aria-expanded="false">
+                            Agricultura
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Agricultura</a>
+                            <a class="dropdown-item" href="#">Estradas Rurais</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Assistência Social</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Educação
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="<?=base_url("index.php/educacao")?>">Educação</a>
+                            <a class="dropdown-item" href="#">Esportes</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link"
-                           href="<?=base_url("index.php/noticias")?>">
-                            Notícias
+                           href="">
+                            Saúde
                         </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Governo
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item"
+                               href="<?=base_url("index.php/educacao")?>">
+                                Cultura e Turismo
+                            </a>
+                            <a class="dropdown-item" href="">Obras</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Sobre</a>

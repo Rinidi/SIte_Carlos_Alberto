@@ -7,9 +7,14 @@ class Noticias_model extends CI_Model
         return $this->db->get("noticias")->row_array();
     }
 
-    public function buscaTodos()
+    public function buscaTodosPorTabela($tabela = "noticias")
     {
         $this->db->order_by('data', 'DESC');
-        return $this->db->get("noticias")->result_array();
+        return $this->db->get($tabela)->result_array();
     }
+    public function buscaPorId($tabela, $id){
+        $this->db->where('id', $id);
+        return $this->db->get($tabela)->row_array();
+    }
+
 }

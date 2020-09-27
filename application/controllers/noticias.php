@@ -12,6 +12,16 @@ class Noticias extends CI_Controller
         $dados = array("caminhoCss" => $caminhoCss, "noticias" => $noticias);
         $this->load->viewTemplate("noticias/index", $dados);
     }
+
+    public function educacao()
+    {
+        $this->load->model('noticias_model');
+        $this->load->helper(array("date_helper","typography"));
+        $noticias = $this->noticias_model->buscaTodosPorTabela("educacao");
+
+        $dados = array("caminhoCss" => "", "noticias" => $noticias);
+        $this->load->viewTemplate("noticias/educacao", $dados);
+    }
     public function noticia($id)
     {
         $this->load->model('noticias_model');
