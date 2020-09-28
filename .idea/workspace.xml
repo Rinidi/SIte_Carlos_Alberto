@@ -20,58 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f9488df-91a0-4e7b-9e15-67f9a9713d27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/application/controllers/agricultura.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/controllers/educacao.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/controllers/governo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/controllers/saude.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/controllers/social.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/noticias/educacao.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/secretarias/educacao.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/pdfs/proposta-de-governo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/lightbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/rodape.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/secretarias/secretarias.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/carlos-e-esposa.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/secretarias/educacao/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/vetores/gps-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/vetores/instagram-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/vetores/whatsapp-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/sobre.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/sobre.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/sobre.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/carlos-e-esposa.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/noticias.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/noticias.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/noticias_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/noticias_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/modules/cabecalho.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/modules/cabecalho.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/modules/rodape.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/modules/rodape.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/carlos-e-esposa.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/secretarias/educacao/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/secretarias/educacao/0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/secretarias/educacao/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/secretarias/educacao/16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/secretarias/educacao/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/secretarias/educacao/17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/secretarias/educacao/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/secretarias/educacao/18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/secretarias/educacao/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/secretarias/educacao/19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/secretarias/educacao/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/secretarias/educacao/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/secretarias/educacao/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/secretarias/educacao/4.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +92,7 @@
       <workItem from="1600353618483" duration="20617000" />
       <workItem from="1600788368059" duration="11853000" />
       <workItem from="1601129862978" duration="8000" />
-      <workItem from="1601130605982" duration="9765000" />
+      <workItem from="1601130605982" duration="13750000" />
     </task>
     <servers />
   </component>
@@ -153,14 +119,14 @@
       <screen x="74" y="27" width="1292" height="741" />
     </state>
     <state x="365" y="27" width="700" height="741" key="#PHP/74.27.1292.741@74.27.1292.741" timestamp="1599066224077" />
-    <state x="378" y="117" width="673" height="575" key="NewPhpClassDialog" timestamp="1600520542708">
+    <state x="378" y="117" width="673" height="575" key="NewPhpClassDialog" timestamp="1601311914825">
       <screen x="74" y="27" width="1292" height="741" />
     </state>
-    <state x="378" y="117" width="673" height="575" key="NewPhpClassDialog/74.27.1292.741@74.27.1292.741" timestamp="1600520542708" />
-    <state x="515" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1600520884587">
+    <state x="378" y="117" width="673" height="575" key="NewPhpClassDialog/74.27.1292.741@74.27.1292.741" timestamp="1601311914825" />
+    <state x="515" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1601311488573">
       <screen x="74" y="27" width="1292" height="741" />
     </state>
-    <state x="515" y="323" width="399" height="156" key="NewPhpFileDialog/74.27.1292.741@74.27.1292.741" timestamp="1600520884587" />
+    <state x="515" y="323" width="399" height="156" key="NewPhpFileDialog/74.27.1292.741@74.27.1292.741" timestamp="1601311488573" />
     <state x="209" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1600548215269">
       <screen x="74" y="27" width="1292" height="741" />
     </state>

@@ -96,7 +96,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
+                        <a class="nav-link" href="<?=base_url("index.php/sobre")?>">Sobre</a>
                     </li>
                 </ul>
                 <!--<form class="form-inline my-2 my-lg-0">

@@ -4,7 +4,7 @@
 a.nav-link{
     font-size: 1.3rem;
     color: rgba(255, 255, 255, 1);
-    font-family: 'Fredoka One', cursive;
+    font-weight: bold;
 }
 a.nav-link:hover{
     color: #d9d9d9;

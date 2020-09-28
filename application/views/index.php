@@ -38,9 +38,7 @@
                 </p>
             </div>
             <div class="col-10 col-xl-5 col-lg-6 col-md-7 col-sm-8">
-                <iframe width="100%" height="300px" src="https://www.youtube.com/embed/EBxlWoAV7VA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="col-10 col-xl-10 col-lg-6 col-md-7 col-sm-8">
+                <iframe width="100%" height="300px" src="https://www.youtube.com/embed/AHr4jZ8FaRM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -116,7 +114,7 @@
         </div>
         <div class="row justify-content-center contato__form-box">
             <div class="col-12 col-xl-5 col-lg-6 col-md-8 col-sm-10">
-                <form contato__form>
+                <form class="contato__form">
                     <div class="form-group">
                         <label class="contato__label" for="assunto">Assunto</label>
                         <input id="assunto" class="form-control" type="text" placeholder="Assunto">
@@ -133,6 +131,7 @@
                         <label class="contato__label" for="mensagem">Mensagem</label>
                         <textarea class="form-control" id="mensagem" rows="3"></textarea>
                     </div>
+                    <button type="submit" class="btn btn-success">Enviar</button>
                 </form>
             </div>
         </div>
